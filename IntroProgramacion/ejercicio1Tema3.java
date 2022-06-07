@@ -2,7 +2,7 @@
  *
  * @author Fedrico Damaso Diaz Ramseyer
  */
-public class ejercicios1Tema3 {
+public class ejercicio1Tema3 {
     
     public static void main(String[] args) {
         var suma = sumarTresValores(1,2,3);
