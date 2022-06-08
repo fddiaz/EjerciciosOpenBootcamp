@@ -1,5 +1,9 @@
-package Tema4;
-public class ejercicio5Tema4 {
+package tema4;
+/**
+ *
+ * @author Fedrico Damaso Diaz Ramseyer
+ */
+public class Ejercicio5Tema4 {
 
     public static void main(String[] args) {
         var estacion = "primavera";

@@ -1,9 +1,9 @@
-package Tema3;
+package tema3;
 /**
  *
  * @author Fedrico Damaso Diaz Ramseyer
  */
-public class ejercicio1Tema3 {
+public class Ejercicio1Tema3 {
     
     public static void main(String[] args) {
         var suma = sumarTresValores(1,2,3);

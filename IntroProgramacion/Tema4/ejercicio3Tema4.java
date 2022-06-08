@@ -1,5 +1,9 @@
-package Tema4;
-public class ejercicio3Tema4 {
+package tema4;
+/**
+ *
+ * @author Fedrico Damaso Diaz Ramseyer
+ */
+public class Ejercicio3Tema4 {
 
     public static void main(String[] args) {
         int numeroWhile = 2;
