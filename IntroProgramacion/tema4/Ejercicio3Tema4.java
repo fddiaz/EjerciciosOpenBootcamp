@@ -1,4 +1,5 @@
 package tema4;
+
 /**
  *
  * @author Fedrico Damaso Diaz Ramseyer
@@ -6,7 +7,7 @@ package tema4;
 public class Ejercicio3Tema4 {
 
     public static void main(String[] args) {
-        int numeroWhile = 2;
+        int numeroWhile = 1;
         do {
             System.out.println(numeroWhile);
             numeroWhile++;

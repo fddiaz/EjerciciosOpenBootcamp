@@ -1,4 +1,4 @@
-#@author Fedrico Damaso Diaz Ramseyer
+# @author Fedrico Damaso Diaz Ramseyer
 numeroFor = 0
 
 for numerFor in range(4):

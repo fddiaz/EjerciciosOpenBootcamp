@@ -1,4 +1,4 @@
-#@author Fedrico Damaso Diaz Ramseyer
+# @author Fedrico Damaso Diaz Ramseyer
 
 numeroIf = 4
 
