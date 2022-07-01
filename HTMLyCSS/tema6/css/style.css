@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    background-color: black;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#boton:hover {
+    background-color: green;
+    color: white;
+}
+
+#boton::before {
+    content: "Pasa por encima"
+}
+
+#boton:hover::before {
+    content: "¡Hecho!"
+}
