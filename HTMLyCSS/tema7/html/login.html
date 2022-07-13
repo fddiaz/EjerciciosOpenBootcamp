@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/login.css">
+    <title>Formulario de registro</title>
+</head>
+<body>
+    <div id="container">
+        <h3>Regístrte en los formularios</h3>
+        <div class="buttons">
+            <button id="google-btn">
+            <picture>
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" class="logo-g">
+                    <g>
+                        <path fill="#EA4335"
+                            d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z">
+                        </path>
+                        <path fill="#4285F4"
+                            d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z">
+                        </path>
+                        <path fill="#FBBC05"
+                            d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z">
+                        </path>
+                        <path fill="#34A853"
+                            d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z">
+                        </path>
+                        <path fill="none" d="M0 0h48v48H0z"></path>
+                    </g>
+                </svg>
+            </picture>
+            <span>Registrarse con Google</span>
+        </button>
+        <button id="twitter-btn">
+            <picture>
+                <svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="ausbv20y9w5x11bj09vd880nuuvt86t" role="img" viewBox="0 0 24 24"
+                    class="icon ">
+                    <title id="ausbv20y9w5x11bj09vd880nuuvt86t">Twitter icon</title>
+                    <path
+                        d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z">
+                    </path>
+                </svg>
+            </picture>
+        </button>
+        </div>
+        <div class="separator">
+            <hr>
+            <span>O...</span>
+            <hr>
+        </div>
+        <form action="" method="get">
+            <div class="section-inputs">
+                <label for="name">
+                    <span>Nombre</span>
+                    <input type="text" id="name" name="name">
+                </label>
+                <label for="username">
+                    <span>Nombre de usuario</span>
+                    <input type="text" name="username" id="username">
+                </label>
+            </div>
+            <label for="email">
+                <span>Correo</span>
+                <input type="text" name="email" id="email">
+            </label>
+            <label for="password">
+                <span>Contraseña</span>
+                <input type="password" name="password" id="password" placeholder="6+ caracteres">
+            </label>
+            <label for="checkbox" id="checkbox-label">
+                <input type="checkbox" name="checkbox" id="checkbox">
+                <span>Acepto las condiciones y el aviso legal</span>
+            </label>
+            <button type="submit" class="submit-btn">Crear Cuenta</button>
+        </form>
+    </div>
+</body>
+</html>
