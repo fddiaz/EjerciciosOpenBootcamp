@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    font: 1rem;
+}
+
+.barra {
+    background-color: darkgoldenrod;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 10px;
+    gap: 50px;
+}
+
+.barra span {
+    width: 1rem;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+
+.principal {
+    min-width: 90%;
+    padding: 15px;
+    flex-grow: 1;
+}
+
+.principal p {
+    width: 100%;
+}
+
+@media (max-width: 640px) {
+    body {
+        flex-direction: column-reverse;
+    }
+    .barra {
+        min-width: 10%;
+        flex-direction: row;
+        justify-content: space-evenly;
+        order: 1;
+        padding: 10px 40px;
+    }
+    .barra span {
+        width: 100px;
+    }
+}
