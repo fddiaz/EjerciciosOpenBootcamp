@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elementos de Interés en Bootstrap</title>
+  <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="container">
+        <section class="py-2">
+            <div class="bg-light p-5 rounded-3">
+                <div class="container-fluid py-5">
+                    <h1 class="display-5 fw-bold">Custom jumbotron</h1>
+                    <p class="col-md-8 fs-4">
+                        Using a series of utilities, you can create this jumbotron, just
+                        like the one in previous versions of Bootstrap. Check out the
+                        examples below for how you can remix and restyle it to your liking.
+                    </p>
+                    <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modal">Botón de ejemplo</button>
+                </div>
+                <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Título del Modal</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                        </div>
+                        <div class="modal-body">
+                          <p>Texto del modal...</p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+        <section class="py-2">
+            <div class="bg-info p-5 rounded-3">
+                <div class="container-fluid py-5">
+                    <form class="g-2 needs-validation" novalidate>
+                      <div class="row py-3">
+                        <div class="col-md">
+                          <label for="nombre" class="form-label">Nombre</label>
+                          <input type="text" class="form-control" id="nombre" required>
+                          <div class="valid-feedback">
+                            Se ve Ok!
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row py-3">
+                        <div class="col-md">
+                          <label for="telefono" class="form-label">Teléfono</label>
+                          <input type="text" class="form-control" id="telefono" required>
+                          <div class="invalid-feedback">
+                            Por favor colocar un número.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row py-2">
+                        <div class="col-md">
+                          <label for="mensaje" class="form-label">Mensaje</label>
+                          <textarea class="form-control" id="mensaje" rows="3"></textarea>
+                        </div>
+                      </div>
+                      <div class="row py-3">
+                        <div class="col-md py-3">
+                          <button class="btn btn-primary" type="submit">Submit form</button>
+                        </div>
+                      </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="py-2">
+            <div class="bg-white p-5 rounded-3 border border-4 border-info">
+                <div class="container-fluid py-5">
+                  <div class="row d-flex justify-content-center align-items-center h-100">
+                    <div class="col col-md-9 col-lg-7 col-xl-5">
+                      <div class="card" style="border-radius: 15px;">
+                        <div class="card-body p-4">
+                          <div class="d-flex text-black">
+                            <div class="flex-grow-1 ms-3">
+                              <h5 class="mb-1">Federico Diaz</h5>
+                              <p class="mb-2 pb-1" style="color: #2b2a2a;">Ciudadano del mundo. Autodidacta de primer hora. Fanatico de los Videojuegos.</p>
+                              <a href="mailto:fddiaz@gmail.com">fddiaz@gmail.com</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
