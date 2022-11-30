@@ -9,6 +9,9 @@
 # Log file
 *.log
 
+# Only save error.log
+!error.log
+
 # BlueJ files
 *.ctxt
 
@@ -194,3 +197,4 @@ cython_debug/
 
 # Campo de pruevas no incluido
 sandbox/
+node_modules/
