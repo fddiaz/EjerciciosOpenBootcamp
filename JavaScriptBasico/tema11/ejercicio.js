@@ -5,7 +5,7 @@ class Estudiante {
     obtenDatos() {
         return {
             nombre: this.nombre,
-            asignaturas: this.asignaturas;
+            asignaturas: this.asignaturas
         }
     }
 }
