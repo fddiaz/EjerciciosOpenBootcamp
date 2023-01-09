@@ -1,0 +1,12 @@
+{
+  "name": "tema14",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "http-dev": "http-server ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
